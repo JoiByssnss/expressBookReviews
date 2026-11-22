@@ -1,9 +1,2 @@
-$ curl -s https://api.github.com/repos/JoiByssnss/expressBookReviews | grep -E '"full_name"|"fork"|"parent"'
-  "full_name": "JoiByssnss/expressBookReviews",
-  "fork": true,
-  "parent": {
-    "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "fork": false,
-    "full_name": "ibm-developer-skills-network/expressBookReviews",
-    "fork": false,
-  }
+curl -s https://api.github.com/repos/JoiByssnss/expressBookReviews | jq '.parent.full_name'
+"ibm-developer-skills-network/expressBookReviews"
