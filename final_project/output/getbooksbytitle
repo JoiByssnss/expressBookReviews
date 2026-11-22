@@ -5,4 +5,4 @@ $ curl -s 'http://localhost:5000/title/Fairy%20tales'
         "title": "Fairy tales",
         "reviews": {}
     }
-    
+}
