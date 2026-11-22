@@ -1,0 +1,2 @@
+curl -s -b cookies.txt -X PUT 'http://localhost:5000/customer/auth/review/2?review=Fairy%20tales%20are%20enchanting%20collections%20of%20stories%20!'
+{"message":"Review for ISBN 2 added by user JoiByssnss","reviews":{"JoiByssnss":"Fairy tales are enchanting collections of stories !"}}
